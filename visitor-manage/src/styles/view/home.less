@@ -1,0 +1,106 @@
+.homeIndex{
+    .ant-tabs-tabpane{
+        width: 100%;
+        padding:20px;
+        background-color: #fff;
+        border:1px solid #e6e8ea;
+        img{
+            width:150px;
+        }
+    }
+    .ant-tabs-bar{
+        margin-bottom:10px;
+        border: none;
+    }
+    .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab{
+        margin-right: 0;
+        padding: 0  40px;
+        transition:none;
+    }
+    .ant-tabs-nav .ant-tabs-tab-active{
+        transition: none;
+    }
+    .ant-tabs.ant-tabs-card .ant-tabs-card-bar .ant-tabs-tab-active::before {
+        border-top:20px inset transparent;
+    }
+    .ant-tabs-tab:after{
+        width: 0px;
+        height: 0px;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 20px solid #fafafa;
+        position: absolute;
+        content: "";
+        top: 0;
+        right: -20px;
+        z-index: 2;
+    }
+    .ant-tabs-tab-active:after{
+        width: 0px;
+        height: 0px;
+        border-top: 20px inset transparent;
+        border-bottom: 20px inset transparent;
+        border-left: 20px solid #ffffff;
+        position: absolute;
+        content: "";
+        top: 0;
+        right: -20px;
+        z-index: 2;
+    }
+    .ant-tabs-tabpane-inactive{
+        display: none;
+    }
+    .ant-tabs-tabpane-active{
+        display: block;
+    }
+    .tabs{
+        background-color: #f6f7f8;
+        padding:30px;
+        .foots{
+            display: flex;
+            p{
+                font-size: 20px;
+                color: #666;
+    
+            }
+            span{
+                padding-left: 10px;
+                font-size: 20px;
+                font-weight: 300;
+                color: #ccc;
+            }
+        }
+        .footsout{
+            padding:20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            h5{
+                font-size: 22px;
+                margin:5px 0px 15px;
+            }
+            p{
+                display: flex;
+                align-items: center;
+                font-size: 17px;
+                img{
+                    width:25px;
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+.settingHome{
+        width: 100%;
+        padding:20px;
+        background-color: #fff;
+        .ant-tabs-nav{
+            font-size: 18px;
+        }
+        .updateinfo{
+            margin:20px 0 0;
+            width: 50%;
+
+        }
+}

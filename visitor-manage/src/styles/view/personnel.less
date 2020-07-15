@@ -1,0 +1,103 @@
+.personnel{
+    background-color: #fff;
+    padding:10px;
+    box-shadow: 0 0 5px #ccc;
+    .header{
+        width: 100%;
+        height:60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        h3{
+            font-size: 24px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            p{
+                padding: 0;
+                margin:0;
+                color: #ccc;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                cursor: pointer;
+                span{
+                    display: block;
+                    width:16px;
+                    height:16px;
+                    border: 1px solid #ccc;
+                    border-radius: 50%;
+                    text-align: center;
+                    line-height: 16px;
+                    margin-left:5px;
+                    font-size: 14px;
+                }
+            }
+            p:hover{
+                color:#1890ff;
+            }
+            p:hover span{
+                color:#1890ff;
+                border-color: #1890ff;
+            }
+            span{
+                padding:0px 5px;
+            }
+        }
+    }
+    .action{
+        padding: 20px 0px;
+    }
+}
+.inputsInfo{
+    margin-top:25px;
+}
+.adduser{
+    .header{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height:60px;
+        border-bottom: 1px solid #ccc;
+        h3{
+            font-size: 20px;
+            margin:0;
+        }
+        .ant-btn{
+            border:1px solid #1890ff;
+            margin-right:20px
+        } 
+    }
+    .inputsInfo{
+        padding:30px;
+        width:60%;
+        margin:30px auto 0px;
+        .ant-btn-primary{
+            float: right;
+        }
+    }
+}
+.tableListRole{
+    margin-top:20px;
+    .addRoleList{
+        margin:0px 0px 20px;
+    }
+}
+.addUserRole{
+    // height:450px;
+    // padding-bottom: 0;
+    
+    // .ant-modal-content{
+    //     height:100%;
+    // }
+    .ant-modal-confirm-body-wrapper{
+        height: 400px;
+        overflow-y:scroll;
+    }
+    .ant-modal-confirm-btns{
+        display: none;
+    }
+}
